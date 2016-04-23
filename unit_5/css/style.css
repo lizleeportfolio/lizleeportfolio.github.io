@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	color:rgba(0,0,0,.87);
+	font-size: 16px;
+	font-family: 'Merriweather', serif;
+	line-height: 1.5;
+}
+
+.splash {
+	background-image: url("../images/workplace-hero-img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.splash-text {
+	padding: 250px 50px 50px 50px;
+	background: rgba(255,255,255,0.5);
+}
+
+#about img {
+	float: left;
+	width: 25%;
+}
+
+.overview {
+	float: right;
+	width: 73%;
+	margin-left: 2%;
+
+}
+
+#about {
+	padding: 0 35px;
+}
+
+section {
+	margin: 50px 0;
+	overflow: hidden;
+}
+
+nav, h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	font-size: 20px;
+	float: right;
+}
+
+h1 {
+	font-size: 42px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	clear: both;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 1em;
+}
